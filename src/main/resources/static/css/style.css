@@ -1,0 +1,222 @@
+
+/* 
+    Created on : 8 jun 2024, 10:29:09 p. m.
+    Author     : andrj
+*/
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    width: 80%;
+    color: white;
+    padding: 0.5vh 10%;
+    margin: 0;
+    height: 4vh; /* 10% de la altura del viewport */
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+}
+
+header .contenedor{
+    display: flex; /* or inline-flex */
+    justify-content: space-between;
+    align-items: center;
+}
+
+.seccionGeneral {
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    margin: 0 auto;
+    padding-top: 5vh; /* Compensa la altura del header */
+    height: 90vh;
+    overflow-y: auto; /* Permite el desplazamiento vertical si el contenido excede la altura disponible */
+    scrollbar-width: none;
+}
+
+
+
+.item {
+    flex-grow: 1;
+  
+}
+
+.item p {
+    margin: 0;
+    font-size: 30px;
+}
+nav div {
+    margin: 0 auto;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.itemGeneral {
+    flex: 1;
+    padding: 20px 0;
+}
+
+.intro {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.intro h1 {
+    font-size: 36px;
+}
+
+.intro p {
+    font-size: 18px;
+}
+
+.btn-index {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 5px;
+}
+
+.btn-index:hover {
+    background-color: #0056b3;
+}
+
+section {
+    padding: 40px 20px;
+    text-align: center
+}
+
+h2 {
+    text-align: center;
+    font-size: 28px;
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+form label {
+    margin-bottom: 5px;
+    font-size: 16px;
+}
+
+form input,
+form textarea {
+    margin-bottom: 15px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+form button {
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #0056b3;
+}
+
+.acercaDeNosotros {
+    min-height: 1000px;
+    max-height: 100%;
+    font-size: 18px;
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    padding: 0.5vh 10%;
+    height: 4vh;
+    background-color: #333;
+    color: white;
+    position: fixed;
+    width: 80%;
+    bottom: 0;
+}
+
+footer .redesSociales {
+    margin-bottom: 10px;
+}
+
+footer .redesSociales a{
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 16px;
+}
+
+footer .redesSociales a:hover {
+    text-decoration: underline;
+}
+
+/* Estilos para la página de servicios */
+.servicios {
+    margin-top: 20px;
+}
+
+.servicios h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.servicio {
+    margin-bottom: 40px;
+}
+
+.servicio h3 {
+    font-size: 24px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.servicio p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+/* Estilos para la página de Contacto */
+
+/* Estilos para la página de Menu */
+
+/* Estilos para la página de Registro */
+
+/* Estilos para la página de Perfil */
+
+/* Estilos para la página de LogIn */
+
